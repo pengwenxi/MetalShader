@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C8A77624F53BA1005FDB41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A77524F53BA1005FDB41 /* AppDelegate.m */; };
+		22C8A77924F53BA1005FDB41 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A77824F53BA1005FDB41 /* SceneDelegate.m */; };
+		22C8A77C24F53BA1005FDB41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A77B24F53BA1005FDB41 /* ViewController.m */; };
+		22C8A77F24F53BA1005FDB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C8A77D24F53BA1005FDB41 /* Main.storyboard */; };
+		22C8A78124F53BA7005FDB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C8A78024F53BA7005FDB41 /* Assets.xcassets */; };
+		22C8A78424F53BA7005FDB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C8A78224F53BA7005FDB41 /* LaunchScreen.storyboard */; };
+		22C8A78724F53BA7005FDB41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A78624F53BA7005FDB41 /* main.m */; };
+		22C8A79124F53BA8005FDB41 /* MetalShaderBufferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A79024F53BA8005FDB41 /* MetalShaderBufferTests.m */; };
+		22C8A79C24F53BA8005FDB41 /* MetalShaderBufferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A79B24F53BA8005FDB41 /* MetalShaderBufferUITests.m */; };
+		22C8A7AB24F53BE1005FDB41 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A7AA24F53BE1005FDB41 /* RenderView.m */; };
+		22C8A7AD24F53C1C005FDB41 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 22C8A7AC24F53C1C005FDB41 /* Shader.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C8A78D24F53BA8005FDB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C8A76924F53BA0005FDB41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C8A77024F53BA0005FDB41;
+			remoteInfo = MetalShaderBuffer;
+		};
+		22C8A79824F53BA8005FDB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C8A76924F53BA0005FDB41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C8A77024F53BA0005FDB41;
+			remoteInfo = MetalShaderBuffer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C8A77124F53BA0005FDB41 /* MetalShaderBuffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalShaderBuffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C8A77424F53BA1005FDB41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22C8A77524F53BA1005FDB41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22C8A77724F53BA1005FDB41 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		22C8A77824F53BA1005FDB41 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		22C8A77A24F53BA1005FDB41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22C8A77B24F53BA1005FDB41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22C8A77E24F53BA1005FDB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C8A78024F53BA7005FDB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C8A78324F53BA7005FDB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22C8A78524F53BA7005FDB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C8A78624F53BA7005FDB41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C8A78C24F53BA8005FDB41 /* MetalShaderBufferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalShaderBufferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C8A79024F53BA8005FDB41 /* MetalShaderBufferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalShaderBufferTests.m; sourceTree = "<group>"; };
+		22C8A79224F53BA8005FDB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C8A79724F53BA8005FDB41 /* MetalShaderBufferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalShaderBufferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C8A79B24F53BA8005FDB41 /* MetalShaderBufferUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalShaderBufferUITests.m; sourceTree = "<group>"; };
+		22C8A79D24F53BA8005FDB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C8A7A924F53BE1005FDB41 /* RenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = "<group>"; };
+		22C8A7AA24F53BE1005FDB41 /* RenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = "<group>"; };
+		22C8A7AC24F53C1C005FDB41 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C8A76E24F53BA0005FDB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C8A78924F53BA8005FDB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C8A79424F53BA8005FDB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C8A76824F53BA0005FDB41 = {
+			isa = PBXGroup;
+			children = (
+				22C8A77324F53BA0005FDB41 /* MetalShaderBuffer */,
+				22C8A78F24F53BA8005FDB41 /* MetalShaderBufferTests */,
+				22C8A79A24F53BA8005FDB41 /* MetalShaderBufferUITests */,
+				22C8A77224F53BA0005FDB41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C8A77224F53BA0005FDB41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C8A77124F53BA0005FDB41 /* MetalShaderBuffer.app */,
+				22C8A78C24F53BA8005FDB41 /* MetalShaderBufferTests.xctest */,
+				22C8A79724F53BA8005FDB41 /* MetalShaderBufferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C8A77324F53BA0005FDB41 /* MetalShaderBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				22C8A77424F53BA1005FDB41 /* AppDelegate.h */,
+				22C8A77524F53BA1005FDB41 /* AppDelegate.m */,
+				22C8A77724F53BA1005FDB41 /* SceneDelegate.h */,
+				22C8A77824F53BA1005FDB41 /* SceneDelegate.m */,
+				22C8A77A24F53BA1005FDB41 /* ViewController.h */,
+				22C8A77B24F53BA1005FDB41 /* ViewController.m */,
+				22C8A7A924F53BE1005FDB41 /* RenderView.h */,
+				22C8A7AA24F53BE1005FDB41 /* RenderView.m */,
+				22C8A7AC24F53C1C005FDB41 /* Shader.metal */,
+				22C8A77D24F53BA1005FDB41 /* Main.storyboard */,
+				22C8A78024F53BA7005FDB41 /* Assets.xcassets */,
+				22C8A78224F53BA7005FDB41 /* LaunchScreen.storyboard */,
+				22C8A78524F53BA7005FDB41 /* Info.plist */,
+				22C8A78624F53BA7005FDB41 /* main.m */,
+			);
+			path = MetalShaderBuffer;
+			sourceTree = "<group>";
+		};
+		22C8A78F24F53BA8005FDB41 /* MetalShaderBufferTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C8A79024F53BA8005FDB41 /* MetalShaderBufferTests.m */,
+				22C8A79224F53BA8005FDB41 /* Info.plist */,
+			);
+			path = MetalShaderBufferTests;
+			sourceTree = "<group>";
+		};
+		22C8A79A24F53BA8005FDB41 /* MetalShaderBufferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C8A79B24F53BA8005FDB41 /* MetalShaderBufferUITests.m */,
+				22C8A79D24F53BA8005FDB41 /* Info.plist */,
+			);
+			path = MetalShaderBufferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C8A77024F53BA0005FDB41 /* MetalShaderBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C8A7A024F53BA8005FDB41 /* Build configuration list for PBXNativeTarget "MetalShaderBuffer" */;
+			buildPhases = (
+				22C8A76D24F53BA0005FDB41 /* Sources */,
+				22C8A76E24F53BA0005FDB41 /* Frameworks */,
+				22C8A76F24F53BA0005FDB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalShaderBuffer;
+			productName = MetalShaderBuffer;
+			productReference = 22C8A77124F53BA0005FDB41 /* MetalShaderBuffer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C8A78B24F53BA8005FDB41 /* MetalShaderBufferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C8A7A324F53BA8005FDB41 /* Build configuration list for PBXNativeTarget "MetalShaderBufferTests" */;
+			buildPhases = (
+				22C8A78824F53BA8005FDB41 /* Sources */,
+				22C8A78924F53BA8005FDB41 /* Frameworks */,
+				22C8A78A24F53BA8005FDB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C8A78E24F53BA8005FDB41 /* PBXTargetDependency */,
+			);
+			name = MetalShaderBufferTests;
+			productName = MetalShaderBufferTests;
+			productReference = 22C8A78C24F53BA8005FDB41 /* MetalShaderBufferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C8A79624F53BA8005FDB41 /* MetalShaderBufferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C8A7A624F53BA8005FDB41 /* Build configuration list for PBXNativeTarget "MetalShaderBufferUITests" */;
+			buildPhases = (
+				22C8A79324F53BA8005FDB41 /* Sources */,
+				22C8A79424F53BA8005FDB41 /* Frameworks */,
+				22C8A79524F53BA8005FDB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C8A79924F53BA8005FDB41 /* PBXTargetDependency */,
+			);
+			name = MetalShaderBufferUITests;
+			productName = MetalShaderBufferUITests;
+			productReference = 22C8A79724F53BA8005FDB41 /* MetalShaderBufferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C8A76924F53BA0005FDB41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "彭文喜";
+				TargetAttributes = {
+					22C8A77024F53BA0005FDB41 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					22C8A78B24F53BA8005FDB41 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 22C8A77024F53BA0005FDB41;
+					};
+					22C8A79624F53BA8005FDB41 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 22C8A77024F53BA0005FDB41;
+					};
+				};
+			};
+			buildConfigurationList = 22C8A76C24F53BA0005FDB41 /* Build configuration list for PBXProject "MetalShaderBuffer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C8A76824F53BA0005FDB41;
+			productRefGroup = 22C8A77224F53BA0005FDB41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C8A77024F53BA0005FDB41 /* MetalShaderBuffer */,
+				22C8A78B24F53BA8005FDB41 /* MetalShaderBufferTests */,
+				22C8A79624F53BA8005FDB41 /* MetalShaderBufferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C8A76F24F53BA0005FDB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C8A78424F53BA7005FDB41 /* LaunchScreen.storyboard in Resources */,
+				22C8A78124F53BA7005FDB41 /* Assets.xcassets in Resources */,
+				22C8A77F24F53BA1005FDB41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C8A78A24F53BA8005FDB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C8A79524F53BA8005FDB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C8A76D24F53BA0005FDB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C8A7AD24F53C1C005FDB41 /* Shader.metal in Sources */,
+				22C8A77C24F53BA1005FDB41 /* ViewController.m in Sources */,
+				22C8A7AB24F53BE1005FDB41 /* RenderView.m in Sources */,
+				22C8A77624F53BA1005FDB41 /* AppDelegate.m in Sources */,
+				22C8A78724F53BA7005FDB41 /* main.m in Sources */,
+				22C8A77924F53BA1005FDB41 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C8A78824F53BA8005FDB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C8A79124F53BA8005FDB41 /* MetalShaderBufferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C8A79324F53BA8005FDB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C8A79C24F53BA8005FDB41 /* MetalShaderBufferUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C8A78E24F53BA8005FDB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C8A77024F53BA0005FDB41 /* MetalShaderBuffer */;
+			targetProxy = 22C8A78D24F53BA8005FDB41 /* PBXContainerItemProxy */;
+		};
+		22C8A79924F53BA8005FDB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C8A77024F53BA0005FDB41 /* MetalShaderBuffer */;
+			targetProxy = 22C8A79824F53BA8005FDB41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C8A77D24F53BA1005FDB41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C8A77E24F53BA1005FDB41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22C8A78224F53BA7005FDB41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C8A78324F53BA7005FDB41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C8A79E24F53BA8005FDB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22C8A79F24F53BA8005FDB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C8A7A124F53BA8005FDB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetalShaderBuffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenxi.MetalShaderBuffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C8A7A224F53BA8005FDB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetalShaderBuffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenxi.MetalShaderBuffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22C8A7A424F53BA8005FDB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetalShaderBufferTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenxi.MetalShaderBufferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalShaderBuffer.app/MetalShaderBuffer";
+			};
+			name = Debug;
+		};
+		22C8A7A524F53BA8005FDB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetalShaderBufferTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenxi.MetalShaderBufferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalShaderBuffer.app/MetalShaderBuffer";
+			};
+			name = Release;
+		};
+		22C8A7A724F53BA8005FDB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetalShaderBufferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenxi.MetalShaderBufferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetalShaderBuffer;
+			};
+			name = Debug;
+		};
+		22C8A7A824F53BA8005FDB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetalShaderBufferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenxi.MetalShaderBufferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetalShaderBuffer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C8A76C24F53BA0005FDB41 /* Build configuration list for PBXProject "MetalShaderBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C8A79E24F53BA8005FDB41 /* Debug */,
+				22C8A79F24F53BA8005FDB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C8A7A024F53BA8005FDB41 /* Build configuration list for PBXNativeTarget "MetalShaderBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C8A7A124F53BA8005FDB41 /* Debug */,
+				22C8A7A224F53BA8005FDB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C8A7A324F53BA8005FDB41 /* Build configuration list for PBXNativeTarget "MetalShaderBufferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C8A7A424F53BA8005FDB41 /* Debug */,
+				22C8A7A524F53BA8005FDB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C8A7A624F53BA8005FDB41 /* Build configuration list for PBXNativeTarget "MetalShaderBufferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C8A7A724F53BA8005FDB41 /* Debug */,
+				22C8A7A824F53BA8005FDB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C8A76924F53BA0005FDB41 /* Project object */;
+}
